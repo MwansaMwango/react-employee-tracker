@@ -51,7 +51,7 @@ export default function AdvanceFilter(props) {
 
   return (
     <div className='advance-filter mt-5'>
-      <h5 className='my-5 text-center'>Advance Filter</h5>
+      <h5 className='my-5 text-center'>Advanced Filter</h5>
       <form>
         <div className='form-row'>
           <div className='offset-1 col-4 mr-2'>
