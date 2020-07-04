@@ -1,0 +1,43 @@
+.App {
+  color: #666666;
+}
+
+.badge-primary {
+  background-color: #5af !important;
+}
+
+.btn-primary {
+  background-color: #5af !important;
+}
+
+.btn-primary:hover {
+  background-color: #08f !important;
+}
+
+.btn-outline-primary {
+  color: #5af !important;
+  border-color: #5af !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #08f !important;
+}
+
+table tbody tr:hover {
+  cursor: pointer;
+  border: 2px #dee2e6 solid;
+}
+
+.user-card:hover {
+  cursor: pointer;
+}
+
+#list-icon,
+#grid-icon {
+  padding: 5px;
+}
+
+svg {
+  pointer-events: none;
+}
