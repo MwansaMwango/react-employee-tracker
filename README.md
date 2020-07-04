@@ -4,6 +4,9 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 This is an upgrade of the initial employee tracker to use React.js to structure the application's UI into components, manage component state, and respond to user events.
 
+## Deployment Link
+https://mwansamwango.github.io/react-employee-tracker/
+
 ## User Story
 
 * As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
