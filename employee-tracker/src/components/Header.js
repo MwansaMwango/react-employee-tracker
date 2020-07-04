@@ -10,7 +10,7 @@ export default function Header() {
       </div>
       
       <div className='col-md-2 d-flex align-items-center'>
-        <button className='btn btn-outline-info btn-block'>
+        <button className='btn btn-outline-info btn-block' disabled>
           New Employee
           <span className='ml-2'>
             <i className='fas fa-user-plus fa-2x'></i>
