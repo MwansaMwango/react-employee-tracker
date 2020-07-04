@@ -2,14 +2,14 @@ import React from 'react';
 import person from '../person.png';
 
 export default function User(props) {
-  const { name, role, department, email, phone } = props.user;
+  const { name, role, department, email, phone, img } = props.user;
   return (
     <React.Fragment>
       <td>
         <div className='card border-0'>
           <div className='row no-gutters'>
             <div className='col-md-4'>
-              <img src={person} className='card-img' alt='...' />
+              <img src={img} className='card-img' alt='...' />
             </div>
             <div className='col-md-8'>
               <div className='card-body'>

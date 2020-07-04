@@ -2,14 +2,14 @@ import React from 'react';
 import person from '../person.png';
 
 export default function UserCard(props) {
-  const { name, role, email } = props.user;
+  const { name, role, email, img } = props.user;
   return (
     <div className='col col-md-6 mt-5'>
       <div className='card user-card' style={{ maxWidth: 540 }}>
         <div className='row no-gutters'>
           <div className='col-md-4'>
             <img
-              src={person}
+              src={img}
               className='card-img'
               alt='Employee'
               style={{ width: '75%' }}
